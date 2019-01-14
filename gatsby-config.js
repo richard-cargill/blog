@@ -39,6 +39,7 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
+          `gatsby-remark-autolink-headers`,
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
@@ -67,6 +68,14 @@ module.exports = {
       },
     },
     `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-catch-links`,
+	{
+    resolve: `gatsby-plugin-nprogress`,
+    options: {
+      color: `tomato`,
+      showSpinner: false,
+    },
+  },
   ],
 }
