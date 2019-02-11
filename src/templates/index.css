@@ -1,0 +1,30 @@
+html {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: calc(18px + (21 - 18) * ((100vw - 300px) / (1600 - 300)));
+  line-height: 1.5;
+  max-width: 75ex;
+  letter-spacing: 1px;
+  padding: 1.5rem 1.5rem 0;
+
+}
+
+*:not([class]) {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: sans-serif;
+  line-height: 1.2;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}

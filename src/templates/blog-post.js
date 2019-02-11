@@ -5,6 +5,8 @@ import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
 
+import "./index.css";
+
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
