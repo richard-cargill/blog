@@ -9,6 +9,12 @@ So it's the new year and I've finally decided to start a blog. Let's see how thi
 $ npm install
 ```
 
-```javascript
+```js{showLineNumbers: true}
 console.log('i love js');
+const foo = 'test';
+function main() {
+  return function() {
+    return foo; 
+  }
+}
 ```

@@ -11,6 +11,7 @@ class Layout extends React.Component {
       header = (
         <h1>
           <Link
+            className="no-underline"
             to={`/`}
           >
             {title}
@@ -21,6 +22,7 @@ class Layout extends React.Component {
       header = (
         <h3>
           <Link
+            className="no-underline"
             to={`/`}
           >
             {title}
@@ -29,15 +31,13 @@ class Layout extends React.Component {
       )
     }
     return (
-      <div>
+      <React.Fragment>
         {header}
         {children}
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          © {new Date().getFullYear()} - Built with ❤
         </footer>
-      </div>
+      </React.Fragment>
     )
   }
 }

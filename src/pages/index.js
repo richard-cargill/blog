@@ -21,7 +21,7 @@ class BlogIndex extends React.Component {
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
-            <div key={node.fields.slug}>
+            <React.Fragment key={node.fields.slug}>
               <h3>
                 <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                   {title}
@@ -29,7 +29,7 @@ class BlogIndex extends React.Component {
               </h3>
               <small>{node.frontmatter.date}</small>
               <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-            </div>
+            </React.Fragment>
           )
         })}
       </Layout>

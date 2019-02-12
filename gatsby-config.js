@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Richard Cargill`,
+    title: `rc`,
     author: `Richard Cargill`,
     description: `A blog for Richard Cargill`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
@@ -40,7 +40,12 @@ module.exports = {
             },
           },
           `gatsby-remark-autolink-headers`,
-          `gatsby-remark-prismjs`,
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              showLineNumbers: true
+            }
+          },
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
         ],
