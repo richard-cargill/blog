@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `rc`,
     author: `Richard Cargill`,
-    description: `A blog for Richard Cargill`,
+    description: `Richard Cargill's blog`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `richard_cargill`,
@@ -63,24 +63,18 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Richard Cargill's Blog`,
+        short_name: `rc`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
+        background_color: `#000000`,
+        theme_color: `#ffffff`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/smiley-icon.png`,
       },
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-catch-links`,
-	{
-    resolve: `gatsby-plugin-nprogress`,
-    options: {
-      color: `tomato`,
-      showSpinner: false,
-    },
-  },
+    `gatsby-plugin-sitemap`
   ],
 }
