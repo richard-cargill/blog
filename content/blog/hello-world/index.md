@@ -11,10 +11,14 @@ $ npm install
 
 ```js{showLineNumbers: true}
 console.log('i love js');
+
 const foo = 'test';
+
 function main() {
   return function() {
     return foo; 
   }
 }
 ```
+
+![salty egg](salty_egg.jpg "salty egg")
