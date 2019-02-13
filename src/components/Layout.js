@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import Bio from '../components/Bio'
 
 class Layout extends React.Component {
   render() {
@@ -9,7 +10,7 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <h1>
+        <h1 className="logo">
           <Link
             className="no-underline"
             to={`/`}
@@ -20,7 +21,7 @@ class Layout extends React.Component {
       )
     } else {
       header = (
-        <h3>
+        <h3 className="logo">
           <Link
             className="no-underline"
             to={`/`}
@@ -32,8 +33,12 @@ class Layout extends React.Component {
     }
     return (
       <React.Fragment>
-        {header}
+        <header className="header">
+          {header}
+          <Link className="no-underline sans-serif" to={`/`}>All posts</Link>
+        </header>
         {children}
+        <Bio />
         <footer>
           © {new Date().getFullYear()} - Built with ❤
         </footer>

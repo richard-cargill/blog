@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 
-import Bio from '../components/Bio'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
 
@@ -17,12 +16,12 @@ class BlogPostTemplate extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={post.frontmatter.title} description={post.excerpt} />
         <h1>{post.frontmatter.title}</h1>
-        <p>
-          {post.frontmatter.date}
-        </p>
+
+        <time datetime={post.frontmatter.date}>{post.frontmatter.formattedDate}</time>
+
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
+
         <hr/>
-        <Bio />
 
         <ul>
           {previous && (
@@ -61,7 +60,8 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date
+        formattedDate: date(formatString: "MMMM DD, YYYY")
       }
     }
   }
