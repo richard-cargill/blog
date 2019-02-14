@@ -57,7 +57,7 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "build": "gatsby build",
-    "predeploy": "npm run build",
+    "predeploy": "gatsby build --prefix-paths",
     "deploy": "gh-pages -d public",
     "write-good": "write-good -- glob 'content/blog/**/*.md'",
     "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
