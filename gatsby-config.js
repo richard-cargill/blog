@@ -1,10 +1,10 @@
 module.exports = {
+  pathPrefix: `/blog`,
   siteMetadata: {
     title: `rc`,
     author: `Richard Cargill`,
     description: `Richard Cargill's blog`,
     siteUrl: `https://richard-cargill.github.io`,
-    pathPrefix: `/blog`,
     social: {
       twitter: `richard_cargill`,
     },
@@ -32,7 +32,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,
-            },
+        },
           },
           {
             resolve: `gatsby-remark-responsive-iframe`,
@@ -66,7 +66,7 @@ module.exports = {
       options: {
         name: `Richard Cargill's Blog`,
         short_name: `rc`,
-        start_url: `/`,
+        start_url: `/blog`,
         background_color: `#000000`,
         theme_color: `#ffffff`,
         display: `minimal-ui`,
