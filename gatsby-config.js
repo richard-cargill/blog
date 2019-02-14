@@ -3,7 +3,7 @@ module.exports = {
     title: `rc`,
     author: `Richard Cargill`,
     description: `Richard Cargill's blog`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://richard-cargill.github.io/blog/`,
     social: {
       twitter: `richard_cargill`,
     },
