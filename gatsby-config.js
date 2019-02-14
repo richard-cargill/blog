@@ -3,7 +3,8 @@ module.exports = {
     title: `rc`,
     author: `Richard Cargill`,
     description: `Richard Cargill's blog`,
-    siteUrl: `https://richard-cargill.github.io/blog/`,
+    siteUrl: `https://richard-cargill.github.io/`,
+    pathPrefix: `blog`,
     social: {
       twitter: `richard_cargill`,
     },
