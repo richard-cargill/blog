@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[rc]]></title><description><![CDATA[Richard Cargill's blog]]></description><link>https://richard-cargill.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 14 Feb 2019 13:34:22 GMT</lastBuildDate><item><title><![CDATA[Hello World]]></title><description><![CDATA[So it’s the new year and I’ve finally decided to start a blog. Let’s see how this goes.]]></description><link>https://richard-cargill.github.io/hello-world/</link><guid isPermaLink="false">https://richard-cargill.github.io/hello-world/</guid><pubDate>Fri, 18 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;So it’s the new year and I’ve finally decided to start a blog. Let’s see how this goes.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[rc]]></title><description><![CDATA[Richard Cargill's blog]]></description><link>https://richard-cargill.github.io</link><generator>RSS for Node</generator><lastBuildDate>Thu, 14 Feb 2019 13:39:29 GMT</lastBuildDate><item><title><![CDATA[Hello World]]></title><description><![CDATA[So it’s the new year and I’ve finally decided to start a blog. Let’s see how this goes.]]></description><link>https://richard-cargill.github.io/hello-world/</link><guid isPermaLink="false">https://richard-cargill.github.io/hello-world/</guid><pubDate>Fri, 18 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;So it’s the new year and I’ve finally decided to start a blog. Let’s see how this goes.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre style=&quot;counter-reset: linenumber NaN&quot; class=&quot;language-text line-numbers&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ npm install&lt;/code&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot; style=&quot;white-space: normal; width: auto; left: 0;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre style=&quot;counter-reset: linenumber NaN&quot; class=&quot;language-js line-numbers&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;i love js&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
@@ -12,7 +12,7 @@
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/3f5a1/salty_egg.jpg&quot;
+    href=&quot;/blog/static/8058f3f26913fea3b6a89a73344fe94a/3f5a1/salty_egg.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -31,14 +31,14 @@
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;salty egg&quot;
         title=&quot;salty egg&quot;
-        src=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/f8fb9/salty_egg.jpg&quot;
-        srcset=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/e8976/salty_egg.jpg 148w,
-/static/8058f3f26913fea3b6a89a73344fe94a/63df2/salty_egg.jpg 295w,
-/static/8058f3f26913fea3b6a89a73344fe94a/f8fb9/salty_egg.jpg 590w,
-/static/8058f3f26913fea3b6a89a73344fe94a/85e3d/salty_egg.jpg 885w,
-/static/8058f3f26913fea3b6a89a73344fe94a/d1924/salty_egg.jpg 1180w,
-/static/8058f3f26913fea3b6a89a73344fe94a/9452e/salty_egg.jpg 1770w,
-/static/8058f3f26913fea3b6a89a73344fe94a/3f5a1/salty_egg.jpg 2048w&quot;
+        src=&quot;/blog/static/8058f3f26913fea3b6a89a73344fe94a/f8fb9/salty_egg.jpg&quot;
+        srcset=&quot;/blog/static/8058f3f26913fea3b6a89a73344fe94a/e8976/salty_egg.jpg 148w,
+/blog/static/8058f3f26913fea3b6a89a73344fe94a/63df2/salty_egg.jpg 295w,
+/blog/static/8058f3f26913fea3b6a89a73344fe94a/f8fb9/salty_egg.jpg 590w,
+/blog/static/8058f3f26913fea3b6a89a73344fe94a/85e3d/salty_egg.jpg 885w,
+/blog/static/8058f3f26913fea3b6a89a73344fe94a/d1924/salty_egg.jpg 1180w,
+/blog/static/8058f3f26913fea3b6a89a73344fe94a/9452e/salty_egg.jpg 1770w,
+/blog/static/8058f3f26913fea3b6a89a73344fe94a/3f5a1/salty_egg.jpg 2048w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
