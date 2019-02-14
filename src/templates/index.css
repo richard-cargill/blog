@@ -41,16 +41,16 @@ h6 {
   text-decoration: none;
 }
 
-.underline {
-  text-decoration: underline;
-}
-
 .inline-block {
   display: inline-block;
 }
 
 .no-margin {
   margin: 0;
+}
+
+.margin-bottom {
+  margin-bottom: 1.5rem;
 }
 
 .sans-serif {
@@ -67,4 +67,14 @@ h6 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.list {
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.list__title {
+  margin-bottom: .5rem;
+  text-deocration: underline;
 }

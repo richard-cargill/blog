@@ -17,12 +17,12 @@ class BlogIndex extends React.Component {
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
         {posts &&
-          <nav>
+          <nav className="list">
             {posts.map(({ node }) => {
               const title = node.frontmatter.title || node.fields.slug
               return (
                 <Link className="no-underline inline-block" style={{ boxShadow: `none` }} to={node.fields.slug} key={node.fields.slug}>
-                  <h3 className="underline no-margin">
+                  <h3 className="list__title">
                     {title}
                   </h3>
                   <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />

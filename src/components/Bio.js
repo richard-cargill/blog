@@ -9,9 +9,9 @@ function Bio() {
       render={data => {
         const { author } = data.site.siteMetadata
         return (
-          <p>
+          <small className="inline-block">
             Written by <strong>{author}</strong> who lives and works in London building digital stuff.
-          </p>
+          </small>
         )
       }}
     />

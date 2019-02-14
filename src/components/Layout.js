@@ -40,7 +40,7 @@ class Layout extends React.Component {
         {children}
         <Bio />
         <footer>
-          © {new Date().getFullYear()} - Built with ❤
+          <small>© {new Date().getFullYear()} - Built with ❤</small>
         </footer>
       </React.Fragment>
     )
