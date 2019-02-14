@@ -5,6 +5,8 @@ date: '2019-01-18'
 
 So it's the new year and I've finally decided to start a blog. Let's see how this goes.
 
+Testing out ci build
+
 ```
 $ npm install
 ```
