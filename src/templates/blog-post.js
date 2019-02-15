@@ -15,9 +15,9 @@ class BlogPostTemplate extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={post.frontmatter.title} description={post.excerpt} />
-        <h1>{post.frontmatter.title}</h1>
+        <h1 className="no-margin">{post.frontmatter.title}</h1>
 
-        <time datetime={post.frontmatter.date}>{post.frontmatter.formattedDate}</time>
+        <time className="inline-block margin-bottom" datetime={post.frontmatter.date}>{post.frontmatter.formattedDate}</time>
 
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
 
