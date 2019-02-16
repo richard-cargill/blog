@@ -3,6 +3,14 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
+function generateTitleTemplate (title, {description}) {
+  if(title !== 'All posts') {
+    return `${title} | ${description}`
+  } else {
+    return `${description} | ${title}`
+  }
+}
+
 function SEO({ description, lang, meta, keywords, title }) {
   return (
     <StaticQuery
@@ -16,7 +24,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               lang,
             }}
             title={title}
-            titleTemplate={`%s | ${data.site.siteMetadata.description}`}
+            titleTemplate={generateTitleTemplate(title, data.site.siteMetadata)}
             meta={[
               {
                 name: `description`,
